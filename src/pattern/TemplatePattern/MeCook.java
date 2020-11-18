@@ -1,4 +1,4 @@
-package TemplatePattern;
+package pattern.TemplatePattern;
 
 public class MeCook extends Cook{
     private static boolean IS_OIL = false;

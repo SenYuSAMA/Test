@@ -1,4 +1,4 @@
-package MediatorPattern;
+package pattern.MediatorPattern;
 
 public class User {
     private String name;

@@ -1,9 +1,11 @@
-package Mutithreading;
+package pattern.Mutithreading;
 
-public class Consumer implements Runnable {
+public class Producer implements Runnable {
     private Storage storage;
 
-    public Consumer(Storage storage){
+    public Producer(){}
+
+    public Producer(Storage storage){
         this.storage = storage;
     }
 
@@ -11,8 +13,8 @@ public class Consumer implements Runnable {
     public void run() {
         while(true){
             try {
-                Thread.sleep(2000);
-                storage.consume();
+                Thread.sleep(1000);
+                storage.produce();
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

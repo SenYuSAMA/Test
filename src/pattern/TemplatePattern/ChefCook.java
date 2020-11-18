@@ -1,4 +1,4 @@
-package TemplatePattern;
+package pattern.TemplatePattern;
 
 public class ChefCook extends Cook {
     @Override

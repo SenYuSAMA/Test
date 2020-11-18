@@ -1,4 +1,4 @@
-package MediatorPattern;
+package pattern.MediatorPattern;
 
 public class Demo {
     public static void main(String[] args) {

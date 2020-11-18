@@ -1,4 +1,4 @@
-package Mutithreading;
+package pattern.Mutithreading;
 
 public class Main {
     public static void main(String[] args) {

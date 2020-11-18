@@ -1,4 +1,4 @@
-package Mutithreading;
+package pattern.Mutithreading;
 
 import java.util.LinkedList;
 

@@ -1,4 +1,4 @@
-package TemplatePattern;
+package pattern.TemplatePattern;
 
 public abstract class Cook {
     public   void cook(){

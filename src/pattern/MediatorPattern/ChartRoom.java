@@ -1,4 +1,4 @@
-package MediatorPattern;
+package pattern.MediatorPattern;
 
 import java.util.Date;
 
